@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>Vyntaris packages</title>
+<body style="font:15px/1.6 system-ui;background:#1e1e2e;color:#cdd6f4;padding:3em;max-width:44em">
+<h1 style="color:#cba6f7">Vyntaris packages</h1>
+<p>The package repository of Vyntaris: pacman reads it. Current: <code>vyntaris-2.2.0-1-any.pkg.tar.zst</code>.</p>
+<p>Everything here is signed with Vyntaris's key, <a href="vyntaris.gpg" style="color:#89b4fa">vyntaris.gpg</a>
+(<code>6ACC400398687F6B10E9AF88F657DA851F2F7A13</code>):</p>
+<pre style="background:#181825;padding:1em;border-radius:8px">sudo pacman-key --add vyntaris.gpg
+sudo pacman-key --lsign-key 6ACC400398687F6B10E9AF88F657DA851F2F7A13
+
+[vyntaris]
+SigLevel = Required DatabaseOptional
+Server = https://stevanovic-milos.github.io/vyntaris-packages</pre>
